@@ -1,6 +1,4 @@
-import pg from "pg";
-
-const { Pool } = pg;
+import { Pool } from "pg";
 
 const pool = new Pool({
   host: process.env.DATABASE_HOST,
